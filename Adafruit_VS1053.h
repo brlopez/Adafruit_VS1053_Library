@@ -170,8 +170,6 @@ public:
    * @param d What to write
    */
   void spiwrite(uint8_t d);
-
-  void spiwrite(uint8_t *c, uint16_t num);
   /*!
    * @brief Low-level SPI write operation
    * @param c Pointer to a buffer containing the data to send
