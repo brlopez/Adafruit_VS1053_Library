@@ -63,7 +63,6 @@ static void feeder(void) {
 #if defined(ESP8266)
 ICACHE_RAM_ATTR
 #endif
-static void feeder(void) { myself->feedBuffer(); }
 
 #define VS1053_CONTROL_SPI_SETTING                                             \
   SPISettings(250000, MSBFIRST, SPI_MODE0) //!< VS1053 SPI control settings
